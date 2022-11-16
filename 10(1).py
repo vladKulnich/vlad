@@ -5,6 +5,7 @@ crapka=0
 okluk=0
 pitanna=0
 for line in f:
+    print (line)
     words += len(line.split())
     s=list(line)
     for e in s:
